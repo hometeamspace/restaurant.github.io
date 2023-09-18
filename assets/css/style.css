@@ -1,0 +1,424 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Montserrat:wght@400;500;600;700&display=swap');
+
+
+  *, body
+  {
+    margin: 0;
+    padding: 0;
+    
+  }
+
+  h1 , h2 , h3 , h4 , h5 , h6
+{
+    font-family: 'grand hotel' , cursive;
+}
+
+p
+{
+  font-family: 'montserrat' , sans-serif;
+  font-weight: 500;
+}
+
+.btn
+{
+  background-color: #ffc200;
+  border-radius: 6px;
+  color: #494130;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 40px;
+  outline: 0;
+  padding: 4px 40px;
+  transition: box-shadow .2s;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: 'montserrat' , sans-serif;
+}
+
+.btn:hover
+{
+  box-shadow: rgba(251, 197, 49,1.0) 0 3px 8px;
+  background: #ffc200;
+  color: #494130;
+}
+
+.mt-140
+{
+  margin-top: 140px;
+}
+
+.mt-80
+{
+  margin-top: 80px;
+}
+
+.mt-275
+{
+  margin-top: 275px;
+}
+
+/************* header *********/
+
+.hero
+{
+  background-image: url(../images/hero.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+.navbar-nav .nav-link , .navbar-nav .nav-link.active
+{
+  font-family: 'montserrat', sans-serif;
+  color: #fff;
+}
+
+.navbar button , .navbar button:hover
+{
+  color: #fff;
+}
+
+.navbar-nav .nav-item
+{
+  padding: 0 20px 0 20px;
+}
+
+ .navbar-nav .nav-link.active
+{
+  color: #ffc200;
+}
+
+.navbar-nav .nav-link:hover
+{
+   color: #ffc200;
+   transition: all 0.3s ease;
+   letter-spacing: 2px;
+}
+
+.bg-img
+{
+  height: 40vh;
+  width: 10vw;
+
+}
+
+.offcanvas-body
+{
+  background-color: #333;
+}
+
+.offcanvas-header
+{
+  background: #ffc200;
+}
+
+.btn-close
+{
+  color: #333;
+}
+
+.hero-text h1
+{
+  color: #ffc200;
+  top: 30%;
+  left: 50%;
+}
+
+.hero-text .lead
+{
+  top: 51%;
+  left: 50%;
+  color: #fff;
+}
+
+.order-btn
+{
+  top: 67%;
+  left: 50%;
+}
+
+/************* header end ************/
+
+/********** best seller **********/
+
+.bestseller h3
+{
+  font-size: 70px;
+}
+
+.bestseller h4
+{
+  margin-top: 20px;
+  font-size: 50px;
+}
+
+/********** best seller end *******/
+
+/********* ori taste *****/
+.ori-taste
+{
+  background-image: url(../images/ot-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: initial;
+  padding-bottom: 220px;
+}
+
+.ori-taste h3
+{
+  color: #ffc200;
+  margin-top: 230px;
+}
+
+.ori-taste img
+{
+  margin-top: 100px;
+}
+
+.pt-60
+{
+  padding-top: 60px;
+}
+
+.ori-taste .btn
+{
+  margin-top: 65px;
+}
+
+.ori-desc
+{
+  font-size: 18px;
+}
+
+/********* ori taste end ********/
+
+/************ stats *********/
+
+.stats
+{
+  background-image: url(../images/stats-bg-shape.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #303030;
+  background-position: center;
+}
+
+.stats h3
+{
+  padding-top: 230px;
+  color: #ffc200;
+
+}
+
+.stats p
+{
+  padding-top: 52px;
+}
+
+.outlets
+{
+  border: 5px solid #fff;
+  border-radius: 50%;
+  width: 230px;
+  height: 230px;
+  display: block;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.outlets p
+{
+  
+  color: #ffc200;
+  font-family: 'montserrat' , sans-serif;
+  font-weight: 600;
+  padding-top: 0;
+}
+
+.stat-sub-text
+{
+  font-size: 26px;
+}
+
+.stat-desc
+{
+  font-size: 18px;
+}
+/*********** stats end **********/
+
+/********* grill ********/
+
+.grill
+{
+  background-image: url(../images/grill-bg.jpg);
+  background-size: cover;
+  background-attachment: initial;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 130px;
+  
+}
+
+.grill h3
+{
+  color: #ffc200;
+  
+}
+
+.grill p
+{
+  font-size: 18px;
+  padding-top: 63px;
+}
+
+.grill .btn
+{
+  margin-top: 63px;
+}
+
+
+
+/********* grill end ******/
+
+/************* lenora *****/
+
+.lenora
+{
+  margin-top: 117px;
+  background-image: url(../images/lorena-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  padding-bottom: 276px;
+  padding-top: 276px;
+}
+
+.lenora p
+{
+  
+  font-size: 20px;
+  
+}
+
+.lenora h3
+{
+  font-family: 'Grand Hotel' , sans-serif;
+
+}
+
+/************ lenora end *****/
+
+/************* subscription *********/
+
+.subscription
+{
+  background: #f4f4f4;
+  
+  padding-top: 156px;
+  padding-bottom: 310px;
+}
+
+.sub-bg
+{
+  background-image: url(../images/sub-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.form-control
+{
+  border: none;
+  box-shadow: #303030;
+}
+
+/************ subscription end ********/
+
+/********* footer ********/
+
+.footer
+{
+  background: #303030;
+  padding-top: 253px;
+}
+
+.footer h3
+{
+  color: #f4f4f4;
+  font-family: 'montserrat' , sans-serif;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.footer p
+{
+  font-size: 18px;
+  color: #f4f4f4;
+  font-weight: normal;
+  
+}
+
+.footer .footer-social
+{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  
+}
+
+.footer-social li
+{
+  display: inline-block;
+  text-align: center;
+}
+
+.footer-social li a
+{
+  display: inline-block;
+  font-size: 18px;
+  line-height: 40px;
+  width: 40px;
+  height: 40px;
+  border-radius: 36px;
+  background-color: #f4f4f4;
+  color: #303030;
+  margin: 0 15px 15px 0;
+}
+
+.footer-social li a:hover
+{
+  text-decoration: none;
+  background-color: #ffc200;
+  transition: all 0.5s ease;
+  color: #f4f4f4;
+}
+
+.footer-links
+{
+  margin-bottom: 40px;
+}
+
+.footer-links li a
+{
+  text-decoration: none;
+  color: #f4f4f4;
+  font-family: 'montserrat' , sans-serif;
+  font-size: 15px;
+  line-height: 10px;
+  margin-bottom: 5px;
+  letter-spacing: 1px;
+
+}
+
+.footer-links li a:hover
+{
+  color: #ffc200;
+  transition: all 0.3s ease;
+  letter-spacing: 2px;
+}
+/******** footer end ******/

@@ -1,0 +1,132 @@
+
+@media (max-width:300px) {
+
+    .hero
+    {
+        height: 124vh;
+    }
+
+    .order-btn
+    {
+        top: 113%;
+    }
+
+    .hero .btn
+    {
+        padding: 4px 35px;
+    }
+    
+}
+
+
+@media (max-width:575.98px) {
+
+    .navbar-collapse
+    {
+        background: #000;
+    }
+
+    .hero
+    {
+        height: 63vh;
+        background: #000;
+        background-image: none;
+    }
+
+    .hero-text h1
+    {
+        top: 18%;
+    }
+
+    .hero-text .lead
+    {
+        top: 30%;
+    }
+
+    .hero h1
+    {
+        text-align: center;
+    }
+
+    .order-btn
+    {
+        top: 78%;
+        left: 52%;
+        padding: 4px 15px;
+    }
+    
+}
+
+@media (max-width:767.98px) {
+
+    .outlets
+    {
+        width: 154px;
+        height: 154px;
+        background: #000;
+    }
+
+    .hero .order-btn
+    {
+        top: 55%;
+    }
+
+    .outlets p
+    {
+        font-size: 18px;
+    }
+   
+    
+}
+
+@media (max-width:991.98px) {
+
+    .outlets
+    {
+        width: 154px;
+        height: 154px;
+        background: #000;
+    }
+
+    .outlets p
+    {
+        font-size: 15px;
+    }
+
+    .order-btn
+    {
+        top: 77%;
+    }
+
+  
+    
+}
+
+@media (max-width:1199.98px) {
+
+    .hero
+    {
+        height: 100vh;
+    }
+
+    .hero-text h1
+    {
+        top: 30%;
+    }
+
+    .hero-text .lead
+    {
+        top: 50%;
+    }
+
+    .hero .order-btn
+    {
+        top: 75%;
+    }
+
+    .outlets
+    {
+        background: #000;
+    }
+    
+}
